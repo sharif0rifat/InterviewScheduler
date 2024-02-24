@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  interviewscheduler.api:
+    image: ${DOCKER_REGISTRY-}interviewschedulerapi
+    container_name: interviewscheduler.api
+    build:
+      context: .
+      dockerfile: InterviewScheduler.API/Dockerfile
+
+  interviewscheduler.database:
+    image: postgres:latest
+    container_name: interviewscheduler.database
+    environment:
+     - POSTGRES_DB=InterviewScheduler
+     - POSTGRES_USER=postgres
+     - POSTGRES_PASSWORD=admin
+    ports:
+    - 5432:5432   
+  
+  
+

@@ -1,0 +1,17 @@
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Service.deps.json
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Service.dll
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Service.pdb
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.AssemblyInfoInputs.cache
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.AssemblyInfo.cs
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.csproj.CoreCompileInputs.cache
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.dll
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\refint\InterviewScheduler.Service.dll
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.pdb
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\ref\InterviewScheduler.Service.dll
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Model.dll
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Repository.dll
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Model.pdb
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\bin\Debug\net8.0\InterviewScheduler.Repository.pdb
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.csproj.AssemblyReference.cache
+D:\DemoProject\InterviewScheduler\InterviewScheduler.Service\obj\Debug\net8.0\InterviewScheduler.Service.csproj.CopyComplete
