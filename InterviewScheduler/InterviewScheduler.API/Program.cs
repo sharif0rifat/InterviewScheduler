@@ -18,7 +18,8 @@ builder.Services.AddTransient<IBookingService, BookingService>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddControllers();
 string connectionString = builder?.Configuration.GetConnectionString("DefaultConnection"); // "Server=127.0.0.1;Port=5432;Database=myDataBase;User Id=admin;Password=admin;";
-builder.Services.AddDbContext<InterviewSchedulerDbContext>(options=>options.UseNpgsql(connectionString));
+builder.Services.AddDbContext<InterviewSchedulerDbContext>
+    (options=>options.UseNpgsql(connectionString,b=>b.MigrationsAssembly(typeof(IRepository<>).Assembly.GetName().FullName)));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -62,7 +63,7 @@ if (app.Environment.IsDevelopment())
     using (var scope = app.Services.CreateScope())
     {
         var db = scope.ServiceProvider.GetRequiredService<InterviewSchedulerDbContext>();
-        //db.Database.Migrate();
+        db.Database.Migrate();
     }
 }
 app.MapPrometheusScrapingEndpoint();
