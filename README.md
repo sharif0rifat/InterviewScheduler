@@ -1,5 +1,5 @@
 # Interview Scheduler
-## A Basic Time booking application for interview
+## Interview Time booking API
 
 
 This is a basic interview scheduler API built on .net core 8 and the back-end database is Postgre SQL
